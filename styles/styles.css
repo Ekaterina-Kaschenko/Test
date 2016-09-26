@@ -1,0 +1,49 @@
+.wrapper {
+	font: normal 16px sans-serif;
+}
+
+.section {
+	width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+	font-size: 24px;
+	text-align: center;
+	font-weight: normal;
+}
+
+ul .item {
+	list-style-type: none;
+  padding: 5px 0;
+}
+    
+ul.list {
+	padding-left: 0;
+}
+
+.list {
+	text-align: left;
+}
+
+.check-button {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 1em 2em;
+  background-color: #E6E6FA;
+  text-align: center;
+  border-radius: .3em;
+  transition: all .2s ease;
+  color: #000;
+  text-decoration: none;
+}
+
+.check-button:hover {
+	background-color: #ADD8E6;
+	transition: all .2s ease;
+}
+
+.test-result {
+  font-size: 50px;
+}
